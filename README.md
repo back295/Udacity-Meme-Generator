@@ -38,6 +38,8 @@ The images is handled by the `Pillow` module.
 
 ### Command Line Interface ###
 
+        usage: meme.py [-h] [--body BODY] [--author AUTHOR] [--path PATH]
+
 The meme.py script has three optional CLI arguments:
 
 - --body a string quote 
@@ -51,6 +53,16 @@ The script returns a path to a generated image. If any argument is not defined, 
 ## Instructions ##
 
 ### Setup ###
+
+To run the project, you should follow bellow steps:
+
+- Clone this prository using the command : `git clone https://github.com/back295/Udacity-Meme-Generator.git`
+
+- Create a virtual environment and install specific requirements:
+
+        python3 -m venv .venv
+        source .venv/bin/activate
+        pip install -r requirements.txt
 
 ### Flask Web Service ###
 
